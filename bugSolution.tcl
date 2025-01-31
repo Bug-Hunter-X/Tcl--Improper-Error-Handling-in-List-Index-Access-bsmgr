@@ -1,0 +1,11 @@
+proc get_element {list index} {
+  if {$index < 0 || $index >= [llength $list]} {
+    error "Index out of range"
+  }
+  return [lindex $list $index]
+}
+
+# Example usage:
+set my_list {a b c d e}
+puts [get_element $my_list 2]  ;# Output: c
+puts [get_element $my_list 10] ;# Output: Tcl error: Index out of range
