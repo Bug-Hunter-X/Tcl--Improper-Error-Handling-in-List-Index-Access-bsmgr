@@ -1,0 +1,1 @@
+This repository contains a Tcl example demonstrating an uncommon error related to list index handling and its improved solution. The original code lacks robust error handling, potentially causing issues in complex applications. The solution provides better error management.
